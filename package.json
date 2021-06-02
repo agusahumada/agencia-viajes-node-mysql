@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/agusahumada/agencia-viajes-node-mysql.git"
   },
+  "type": "module",
   "author": "Agustina Ahumada",
   "license": "ISC",
   "bugs": {
