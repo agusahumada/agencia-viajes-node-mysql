@@ -2,11 +2,16 @@ import express from 'express';
 
 const router = express.Router();
 
-router.get('/', (req,res) => {
-    res.send('Inicio');
+router.get('/inicio', (req,res) => {
+    res.render('Inicio', {
+
+    });
 });
 router.get('/nosotros', (req,res) => {
-    res.render('nosotros');
+    const viajes = 'Viajes a Alemania';
+    res.render('nosotros', {
+        viajes
+    });
 });
 
 
