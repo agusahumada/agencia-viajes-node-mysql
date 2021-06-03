@@ -5,6 +5,9 @@ const app = express();
 
 const PORT = process.env.PORT || 4000;
 
+//Habilitando Pug
+app.set('view engine', 'pug');
+
 app.use('/', router);
 
 app.listen(PORT, ()=>{
